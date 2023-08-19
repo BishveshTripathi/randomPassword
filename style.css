@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(127, 9, 23);
+}
+.main {
+  display: flex;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 200px;
+}
+
+.container .text1 {
+  /* font-size: 50px; */
+  color: aliceblue;
+}
+.container .text2 {
+  /* font-size: 45px; */
+  color: green;
+}
+
+.container .input {
+  height: 60px;
+  width: 400px;
+  background-color: aliceblue;
+  border: none;
+  margin-block: 20px;
+  font-size: 27px;
+  padding-left: 8px;
+}
+
+.container .btn {
+  color: aliceblue;
+  background-color: green;
+  height: 40px;
+  width: 250px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.fun_png img {
+  margin-left: 100px;
+  margin-top: 100px;
+}
